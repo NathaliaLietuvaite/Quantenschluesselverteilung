@@ -154,10 +154,10 @@ Diese deterministische Interpretation stellt die gängige Sichtweise infrage, da
 
 ---
 
-## Lizenz
+## License
+Distributed under the MIT License. See [LICENSE](LICENSE) for full text.
 
-Dieses Projekt steht unter der **Creative Commons BY-NC-SA 4.0** Lizenz.  
-Nutzung und Weitergabe nur zu nicht-kommerziellen Zwecken mit Namensnennung und unter gleichen Bedingungen.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
 ---
 ## Security Analysis
