@@ -28,7 +28,7 @@ graph TD
     B -->|ROT| H2[Heiner aktiv]
     B -->|GRÜN| R2[Robert aktiv]
 
-### Die revolutionäre Interpretationsregel
+Die revolutionäre Interpretationsregel
 Bei Bob gilt:
 
 Helfer aktiv	Interpretation
