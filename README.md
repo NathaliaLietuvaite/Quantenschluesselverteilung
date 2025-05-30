@@ -65,13 +65,13 @@ Diese deterministische Interpretation stellt die gängige Sichtweise infrage, da
 
 ---
 
-## 📎 Lizenz
+## Lizenz
 
 Dieses Projekt steht unter der **Creative Commons BY-NC-SA 4.0** Lizenz.  
 Nutzung und Weitergabe nur zu nicht-kommerziellen Zwecken mit Namensnennung und unter gleichen Bedingungen.
 
 ---
 
-## 🚧 Status
+## Status
 
 Experimentelles Gedankenmodell. Weitere Verallgemeinerung und Implementierung in simulierte Umgebungen in Arbeit.
