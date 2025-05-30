@@ -155,7 +155,7 @@ Diese deterministische Interpretation stellt die gängige Sichtweise infrage, da
 ---
 
 ## License
-Distributed under the MIT License. See [LICENSE.txt](LICENSE) for full text.
+Distributed under the MIT License. See [LICENSE.txt](LICENSE.txt) for full text.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
