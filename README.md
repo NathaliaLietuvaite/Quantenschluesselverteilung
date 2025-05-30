@@ -27,28 +27,3 @@ graph TD
     A -->|GRÜN| R[Rosi aktiv]
     B -->|ROT| H2[Heiner aktiv]
     B -->|GRÜN| R2[Robert aktiv]
-
-Die revolutionäre Interpretationsregel
-Bei Bob gilt:
-
-Helfer aktiv	Interpretation
-Heiner	⇒ GRÜN
-Robert	⇒ ROT
-Quantenmechanischer Beweis:
-
-Alice misst ROT → Bob misst GRÜN → Robert aktiv → Bob interpretiert als ROT ✓
-
-Alice misst GRÜN → Bob misst ROT → Heiner aktiv → Bob interpretiert als GRÜN ✓
-
-Vergleich mit herkömmlichen Systemen
-System	Nutzbare Bits	Basis-Abgleich nötig?
-Herkömmliche QKD	≤50%	Ja
-Unser System	100%	Nein
-Technische Spezifikationen
-Verschränkungsquelle: SPDC-Kristall, λ=1550 nm
-
-Detektoren: Superconducting Nanowire SNSPD
-
-Zeitauflösung: 100 ps (FPGA-basiert)
-
-Synchronisation: GPS-Atomuhren (ns-Präzision)
