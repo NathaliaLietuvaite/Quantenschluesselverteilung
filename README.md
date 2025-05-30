@@ -160,7 +160,28 @@ Dieses Projekt steht unter der **Creative Commons BY-NC-SA 4.0** Lizenz.
 Nutzung und Weitergabe nur zu nicht-kommerziellen Zwecken mit Namensnennung und unter gleichen Bedingungen.
 
 ---
+## Security Analysis
 
+### Key Security Features
+
+1. **Eavesdropping Detection**  
+   Disturbs anti-correlation:  
+   `QBER_observed > QBER_threshold (11%)`  
+   *Erklärung*: Ein Lauscher verursacht messbare Störungen in der Anti-Korrelation. Wenn die beobachtete Quantum Bit Error Rate (QBER) 11% überschreitet, wird ein Angriff erkannt.
+
+2. **No-Cloning Protection**  
+   Monogamy of entanglement prevents cloning  
+   *Erklärung*: Das Monogamie-Prinzip der Quantenverschränkung verbietet das perfekte Kopieren von Quantenzuständen (No-Cloning-Theorem). Ein Angreifer kann Zustände nicht duplizieren, ohne Spuren zu hinterlassen.
+
+3. **Forward Secrecy**  
+   One-time pad encryption  
+   *Erklärung*: Einmal-Schlüssel (One-Time-Pad) garantierte perfekte Geheimhaltung. Selbst bei späterer Kompromittierung eines Schlüssels bleiben frühere Kommunikationen geschützt.
+
+4. **Timing Attack Protection**  
+   Autocorrelation analysis:  
+   `C(τ) = ∫ s(t) · s(t - τ) dt`  
+   *Erklärung*: Die Autokorrelationsfunktion C(τ) analysiert Zeitmuster im Photonenstrom. Abweichungen im Zeitverhalten verraten Manipulationsversuche (z.B. Photon-Delay-Angriffe).
+---
 ## Status
 
 Experimentelles Gedankenmodell. Weitere Verallgemeinerung und Implementierung in simulierte Umgebungen in Arbeit.
